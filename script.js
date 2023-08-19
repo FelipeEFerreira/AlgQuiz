@@ -12,7 +12,7 @@ let newButton = document.getElementById("new");
 let elementos = document.getElementById("categorias");
 let questionCount;
 let scoreCount = 0;
-let count = 11;
+let count = 21;
 let countdown;
 let quizArray = null;
 let value = elementos.options[elementos.selectedIndex].value;
@@ -41,7 +41,7 @@ nextBtn.addEventListener("click", (displayNext = ()=> {
     }else{
         countOfQuestion.innerHTML = questionCount + 1 + " de " + quizArray.length + " questões";
         quizDisplay(questionCount);
-        count = 11;
+        count = 21;
         clearInterval(countdown);
         timerDisplay();
     }
@@ -132,7 +132,7 @@ function initial(){
     quizContainer.innerHTML = "";
     questionCount = 0;
     scoreCount = 0;
-    count = 11;
+    count = 21;
     clearInterval(countdown);
     timerDisplay();
     quizCreator();
@@ -193,6 +193,12 @@ const ordenaçãoQuiz = [
         question: "Algoritmos de ordenação são responsáveis por ordenar elementos de uma estrutura de dados de forma completa ou parcial. Sobre a complexidade dos algoritmos de ordenação, assinale, a seguir, o algoritmo de ordenação que, no pior caso, tem complexidade igual a O(n log n)", 
         options: ["Merge sort", "Quick sort", "Bubble sort", "Insertion sort"], 
         correct: "Merge sort"
+    },
+    {
+        id: "3", 
+        question: "aa", 
+        options: ["a", "b", "c", "d"], 
+        correct: "a"
     }
 ];
 
