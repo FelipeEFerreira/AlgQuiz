@@ -274,7 +274,7 @@ const tadQuiz = [
         id: "13",
         question: "Sobre Filas e Pilhas, qual a alternativa INCORRETA?",
         options: ["Em uma pilha, é implementada uma política LIFO (last-in, first-out)",
-        "Em uma pilha, é implementada uma política LIFO (last-in, first-out)",
+        "Em uma fila, é implementada uma política FIFO (first-in, first-out)",
         "O atributo topo de uma pilha indexa o elemento mais recentemente inserido",
         "Ao tentar extrair algo de uma pilha vazia, acontece um erro de Stack Overflow"],
         correct: "Ao tentar extrair algo de uma pilha vazia, acontece um erro de Stack Overflow"
