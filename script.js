@@ -693,7 +693,7 @@ const complexQuiz = [
          "O algoritmo não é eficiente"], 
         correct: "O custo do algoritmo original é no máximo tão ruim quanto n²"
     }
-]
+];
 const listaQuiz = [
     {
         id: "0", 
