@@ -370,7 +370,7 @@ const ordenaçãoQuiz = [
         question: "Qual dos seguintes algoritmos de ordenação é conhecido por ser estável e eficiente, mas requer um espaço adicional para armazenar um array auxiliar durante sua execução?", 
         options: ["Insertion Sort",
         "Merge Sort",
-        "Bubble Sortc",  
+        "Bubble Sort",  
         "QuickSort"], 
         correct: "Merge Sort"
     },
