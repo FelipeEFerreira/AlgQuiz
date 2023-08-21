@@ -738,7 +738,7 @@ const listaQuiz = [
          "Tamanho fixo e imutabilidade", 
          "Inserções e remoções eficientes", 
          "Menor uso de memória"], 
-        correct: "Inserções e remoções eficiente"
+        correct: "Inserções e remoções eficientes"
     },
     {
         id: "5", 
@@ -828,10 +828,10 @@ const listaQuiz = [
         options: ["Lista encadeada simples",
          "Lista encadeada circular", 
          "Lista duplamente encadeada", 
-         "Todas as opções acima"], 
+         "Todas as opções"], 
         correct: "Lista encadeada simples"
     }
-]
+];
 
 function update(){
     value = elementos.options[elementos.selectedIndex].value;
